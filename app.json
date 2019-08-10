@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Latest UFO sightings",
-    "slug": "ufo.hunters.sightings",
+    "slug": "ufo_hunters_sightings",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -9,13 +9,13 @@
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/green_ufo.ico",
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#959C16"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,10 +25,16 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ufo.hunters.sightings"
+      "bundleIdentifier": "com.ufohunters.sightings"
     },
     "android": {
-      "package": "com.ufo.hunters.sightings"
+      "package": "com.ufohunters.sightings",
+      "permissions": [],
+      "versionCode": 2
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#959C16"
     },
     "description": "UFO Hunters for Android shows the most recent UFO activity all over the world. \nIt collects the most important and latest UFO sightings reported to different organizations and directly to ufo-hunters.com."
   }
